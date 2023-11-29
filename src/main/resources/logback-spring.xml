@@ -27,6 +27,7 @@ https://cloud.spring.io/spring-cloud-gcp/multi/multi__stackdriver_logging.html -
               <includeThreadName>false</includeThreadName>
               <includeLoggerName>false</includeLoggerName>
               <includeContextName>false</includeContextName>
+              <timestampFormat>yyyy-MM-dd' 'HH:mm:ss.SSS</timestampFormat>
               <includeMDC>true</includeMDC>
               <!-- Uncomment below for local development only -->
                <jsonFormatter class="ch.qos.logback.contrib.jackson.JacksonJsonFormatter">
