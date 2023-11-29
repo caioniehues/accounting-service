@@ -12,3 +12,7 @@ w
 G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
 Å
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
+{
+Ksrc/main/java/com/cloudrun/microservicetemplate/MicroserviceController.java,e\d\ed1151319590f02215190480b463baf2611857f7
+t
+Dsrc/main/java/com/cloudrun/microservicetemplate/objects/Despesa.java,9\7\9716ead0d1cda2941fe56a331c242f62fe22ad8b

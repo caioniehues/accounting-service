@@ -16,6 +16,7 @@
 
 package com.cloudrun.microservicetemplate;
 
+import com.cloudrun.microservicetemplate.objects.Despesa;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
@@ -32,14 +33,20 @@ public class MicroserviceController {
   private static final Logger logger = LoggerFactory.getLogger(MicroserviceController.class);
 
   /** Example endpoint handler. */
-  @GetMapping("/")
-  public @ResponseBody String index() {
+  @GetMapping(value = "/", produces = "application/json")
+  public @ResponseBody Object index() {
     // Example of structured logging - add custom fields
     MDC.put("logField", "custom-entry");
     MDC.put("arbitraryField", "custom-entry");
     // Use logger with log correlation
     // https://cloud.google.com/run/docs/logging#correlate-logs
     logger.info("Structured logging example.");
-    return "Hello World!";
+
+
+
+    return new Despesa("teste", "7.7");
   }
+
+
+
 }
